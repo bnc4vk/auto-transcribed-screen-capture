@@ -27,12 +27,13 @@ test("capture dry-run creates a capture manifest without launching recorder UI",
     env
   });
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /open -a Screenshot/);
-  assert.doesNotMatch(result.stdout, /screencapture/);
-  assert.doesNotMatch(result.stdout, /-U/);
-  assert.doesNotMatch(result.stdout, /-J video/);
-  assert.doesNotMatch(result.stdout, /-g/);
-  assert.doesNotMatch(result.stdout, / -i /);
+  const commandLine = result.stdout.split("\n").find(line => line.startsWith("command: "));
+  assert.equal(commandLine, "command: open -a Screenshot");
+  assert.doesNotMatch(commandLine, /screencapture/);
+  assert.doesNotMatch(commandLine, /-U/);
+  assert.doesNotMatch(commandLine, /-J video/);
+  assert.doesNotMatch(commandLine, /-g/);
+  assert.doesNotMatch(commandLine, / -i /);
   const dirLine = result.stdout.split("\n").find(line => line.startsWith("dir: "));
   assert.ok(dirLine);
   const captureDir = dirLine.replace("dir: ", "").trim();
