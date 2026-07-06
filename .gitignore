@@ -1,0 +1,15 @@
+captures/
+.atsc/
+.venv/
+.models/
+node_modules/
+dist/
+*.mov
+*.mp4
+*.m4a
+*.wav
+*.caf
+*.aiff
+*.aif
+.DS_Store
+npm-debug.log*

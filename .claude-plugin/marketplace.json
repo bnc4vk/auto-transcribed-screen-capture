@@ -1,0 +1,31 @@
+{
+  "name": "auto-transcribed-screen-capture",
+  "owner": {
+    "name": "Ben Cohen"
+  },
+  "description": "Claude Code plugins for narrated macOS screen demonstrations.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "auto-transcribed-screen-capture",
+      "source": "./plugins/claude-code/auto-transcribed-screen-capture",
+      "displayName": "Auto-Transcribed Screen Capture",
+      "description": "Request and consume narrated macOS screen demonstrations through the atsc CLI.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ben Cohen"
+      },
+      "homepage": "https://github.com/bnc4vk/auto-transcribed-screen-capture",
+      "repository": "https://github.com/bnc4vk/auto-transcribed-screen-capture",
+      "license": "MIT",
+      "keywords": [
+        "macos",
+        "screen-capture",
+        "coding-agents",
+        "debugging",
+        "transcription"
+      ],
+      "category": "Productivity"
+    }
+  ]
+}

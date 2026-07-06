@@ -1,0 +1,20 @@
+{
+  "name": "auto-transcribed-screen-capture",
+  "version": "0.1.0",
+  "description": "Request and consume narrated macOS screen demonstrations through the atsc CLI.",
+  "author": {
+    "name": "Ben Cohen"
+  },
+  "interface": {
+    "displayName": "Auto-Transcribed Screen Capture",
+    "shortDescription": "Ask users for narrated macOS bug demonstrations.",
+    "longDescription": "Guides Codex to request a focused narrated screen recording when UI bugs are hard to resolve from text alone, then consume atsc CLI artifacts from ~/.atsc.",
+    "developerName": "Ben Cohen",
+    "category": "Productivity",
+    "defaultPrompt": "Use the narrated bug capture workflow when repeated UI bug fixes fail or the user can demonstrate the issue more clearly than describing it.",
+    "capabilities": [
+      "skills"
+    ]
+  },
+  "skills": "./skills/"
+}
