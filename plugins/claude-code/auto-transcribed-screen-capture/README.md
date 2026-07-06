@@ -2,10 +2,10 @@
 
 This Claude Code plugin teaches Claude when and how to use the `atsc` CLI for narrated macOS screen demonstrations.
 
-It does not bundle a recorder or MCP server. Install the npm package separately so `atsc` is available on `PATH`.
+It does not bundle a recorder or MCP server. Install the CLI separately so `atsc` is available on `PATH`.
 
 ```sh
-npm install -g auto-transcribed-screen-capture
+npm install -g github:bnc4vk/auto-transcribed-screen-capture
 atsc setup-transcriber
 ```
 
