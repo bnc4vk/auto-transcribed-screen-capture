@@ -3,7 +3,6 @@ captures/
 .venv/
 .models/
 node_modules/
-dist/
 *.mov
 *.mp4
 *.m4a
