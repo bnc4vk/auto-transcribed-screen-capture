@@ -1,6 +1,6 @@
 {
   "name": "auto-transcribed-screen-capture",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A local CLI for narrated macOS screen demonstrations that coding agents can consume.",
   "license": "MIT",
   "homepage": "https://github.com/bnc4vk/auto-transcribed-screen-capture#readme",
