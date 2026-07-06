@@ -41,17 +41,8 @@ open -a Screenshot
 
 ## Install
 
-From npm, after the package is published:
-
 ```sh
 npm install -g auto-transcribed-screen-capture
-atsc setup-transcriber
-```
-
-From GitHub:
-
-```sh
-npm install -g github:bnc4vk/auto-transcribed-screen-capture
 atsc setup-transcriber
 ```
 
@@ -162,7 +153,7 @@ claude --plugin-dir ./plugins/claude-code/auto-transcribed-screen-capture
 Install the CLI separately before using either integration:
 
 ```sh
-npm install -g github:bnc4vk/auto-transcribed-screen-capture
+npm install -g auto-transcribed-screen-capture
 atsc setup-transcriber
 ```
 

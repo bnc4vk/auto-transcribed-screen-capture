@@ -4,14 +4,14 @@
     "name": "Ben Cohen"
   },
   "description": "Claude Code plugins for narrated macOS screen demonstrations.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "plugins": [
     {
       "name": "auto-transcribed-screen-capture",
       "source": "./plugins/claude-code/auto-transcribed-screen-capture",
       "displayName": "Auto-Transcribed Screen Capture",
       "description": "Request and consume narrated macOS screen demonstrations through the atsc CLI.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "Ben Cohen"
       },
