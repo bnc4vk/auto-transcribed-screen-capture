@@ -1,7 +1,7 @@
 {
   "name": "auto-transcribed-screen-capture",
   "description": "Request and consume narrated macOS screen demonstrations through the atsc CLI.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Ben Cohen"
   },

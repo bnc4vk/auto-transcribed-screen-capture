@@ -1,6 +1,6 @@
 {
   "name": "auto-transcribed-screen-capture",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A local CLI for narrated macOS screen demonstrations that coding agents can consume.",
   "license": "MIT",
   "homepage": "https://github.com/bnc4vk/auto-transcribed-screen-capture#readme",
@@ -33,7 +33,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && tsc && chmod +x dist/cli.js",
     "test": "npm run build && node --test tests/*.test.mjs",
     "start": "node dist/cli.js",
     "setup-transcriber": "node dist/cli.js setup-transcriber"
